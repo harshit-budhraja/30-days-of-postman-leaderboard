@@ -49,9 +49,6 @@ export default class App extends React.Component {
                                 <div className="App-container">
                                     <img className="image-centre badge" src={badge} alt="Challenge Badge" />
                                     <h2 className="App-container-title">Leaderboard 🏆</h2>
-                                    <p className="App-container-text">
-                                        This is an unofficial leaderboard for the <strong>30 Days of Postman</strong> challenge 🚀
-                                    </p>
                                     <br/><br/>
                                     <p>
                                         It can also be embedded on HTML, Markdown etc. using the following iframe:
