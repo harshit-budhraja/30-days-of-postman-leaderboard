@@ -4,7 +4,7 @@ import Paper from '@material-ui/core/Paper';
 import { CopyBlock, dracula } from "react-code-blocks";
 import Leaderboard from './Leaderboard';
 import {
-    BrowserRouter as Router,
+    HashRouter as Router,
     Switch,
     Route
 } from "react-router-dom";
@@ -59,7 +59,7 @@ export default class App extends React.Component {
                                         <CopyBlock
                                             language="js"
                                             text={`<iframe
-    src="https://harshit-budhraja.github.io/30-days-of-postman-leaderboard/embed"
+    src="https://harshit-budhraja.github.io/30-days-of-postman-leaderboard/#/embed"
     title="Leaderboard Embed"
     width="800"
     height="500"

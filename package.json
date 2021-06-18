@@ -2,6 +2,7 @@
   "name": "30-days-of-postman-leaderboard",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://harshit-budhraja.github.io/30-days-of-postman-leaderboard/",
   "dependencies": {
     "@material-ui/core": "^4.11.4",
     "@material-ui/data-grid": "^4.0.0-alpha.31",
@@ -21,6 +22,8 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
