@@ -1,2 +1,0 @@
-(this["webpackJsonp30-days-of-postman-leaderboard"]=this["webpackJsonp30-days-of-postman-leaderboard"]||[]).push([[60],{347:function(t,a,s){"use strict";function n(t){t.languages.ini={comment:/^[ \t]*[;#].*$/m,selector:/^[ \t]*\[.*?\]/m,constant:/^[ \t]*[^\s=]+?(?=[ \t]*=)/m,"attr-value":{pattern:/=.*/,inside:{punctuation:/^[=]/}}}}t.exports=n,n.displayName="ini",n.aliases=[]}}]);
-//# sourceMappingURL=react-syntax-highlighter_languages_refractor_ini.349cc3b3.chunk.js.map
